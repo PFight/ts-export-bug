@@ -1,9 +1,9 @@
 import * as Index from "./Index";
 
 export class Foo {
-    public baz = new Index.Baz();
+    public baz: Index.Baz = new Index.Baz();
     
-    public bazbaz() {
+    public bazbaz(): Index.Baz {
         return Index.Baz;
     }
 }
